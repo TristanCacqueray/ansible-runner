@@ -1,3 +1,8 @@
+- job:
+    name: runner-docker-test
+    nodeset: static-node
+    run: test.yaml
+
 - project:
     check:
       jobs:
